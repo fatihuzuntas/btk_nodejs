@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const mongoose = require("mongoose")
 
-
+//BU KOD ANA MAİN KOD DOSYASIDIR
 
 app.use(express.json())
 app.listen(6000, () => {
